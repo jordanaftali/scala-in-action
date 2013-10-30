@@ -2,7 +2,7 @@ organization := "name.heikoseeberger"
 
 name := "scala-in-action"
 
-version := "0.1.0"
+version := "2.0.0"
 
 scalaVersion := Version.scala
 
@@ -13,8 +13,8 @@ scalacOptions ++= List(
   "-deprecation",
   "-Xlint",
   "-language:_",
-  "-target:jvm-1.6",
+  "-target:jvm-1.7",
   "-encoding", "UTF-8"
 )
 
-// initialCommands in console := "import name.heikoseeberger.scalainaction._"
+fork in run := true
